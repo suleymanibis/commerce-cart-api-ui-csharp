@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:forms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\forms\\orderhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:forms\\orderhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\forms\\orderhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:forms\\orderhistoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:forms\\cartform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\validators\\createrorderrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:validators\\createrorderrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\validators\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:validators\\createproductrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\cartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\cartitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\cartresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\addtocartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\dto\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:dto\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|c:\\users\\windows10pro\\documents\\university\\c#\\e-commerce-cart-api-ui\\forms\\startingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E0CC9D-7F0D-39BA-F6FC-E464010AFFB7}|E-Commerce-Cart-API-UI.csproj|solutionrelative:forms\\startingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 175,
+          "SelectedChildIndex": 22,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderHistoryForm.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\OrderHistoryForm.cs",
+              "RelativeDocumentMoniker": "Forms\\OrderHistoryForm.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\OrderHistoryForm.cs",
+              "RelativeToolTip": "Forms\\OrderHistoryForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T17:12:50.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderHistoryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\OrderHistoryForm.cs",
+              "RelativeDocumentMoniker": "Forms\\OrderHistoryForm.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\OrderHistoryForm.cs [Design]",
+              "RelativeToolTip": "Forms\\OrderHistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T17:10:46.341Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreaterOrderRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Validators\\CreaterOrderRequestValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\CreaterOrderRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Validators\\CreaterOrderRequestValidator.cs",
+              "RelativeToolTip": "Validators\\CreaterOrderRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:59:28.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:53:43.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "Dto\\OrderItemResponse.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\OrderItemResponse.cs",
+              "RelativeToolTip": "Dto\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:51:00.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "Dto\\OrderResponse.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\OrderResponse.cs",
+              "RelativeToolTip": "Dto\\OrderResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:49:55.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateOrderRequest.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CreateOrderRequest.cs",
+              "RelativeToolTip": "Dto\\CreateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:49:47.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartForm.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\CartForm.cs",
+              "RelativeDocumentMoniker": "Forms\\CartForm.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\CartForm.cs",
+              "RelativeToolTip": "Forms\\CartForm.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:11:44.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\CartForm.cs",
+              "RelativeDocumentMoniker": "Forms\\CartForm.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\CartForm.cs [Design]",
+              "RelativeToolTip": "Forms\\CartForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T16:07:43.513Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CartResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CartResponse.cs",
+              "RelativeDocumentMoniker": "Dto\\CartResponse.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CartResponse.cs",
+              "RelativeToolTip": "Dto\\CartResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T14:51:43.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CartItemResponse.cs",
+              "RelativeDocumentMoniker": "Dto\\CartItemResponse.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CartItemResponse.cs",
+              "RelativeToolTip": "Dto\\CartItemResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T14:51:37.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddToCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\AddToCartRequest.cs",
+              "RelativeDocumentMoniker": "Dto\\AddToCartRequest.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\AddToCartRequest.cs",
+              "RelativeToolTip": "Dto\\AddToCartRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T14:51:29.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Services\\CartService.cs",
+              "RelativeToolTip": "Services\\CartService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T14:50:45.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "Dto\\ProductResponse.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\ProductResponse.cs",
+              "RelativeToolTip": "Dto\\ProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:15:41.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CreateProductRequest.cs",
+              "RelativeDocumentMoniker": "Dto\\CreateProductRequest.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Dto\\CreateProductRequest.cs",
+              "RelativeToolTip": "Dto\\CreateProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:58:05.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T10:00:21.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateProductRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Validators\\CreateProductRequestValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\CreateProductRequestValidator.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Validators\\CreateProductRequestValidator.cs",
+              "RelativeToolTip": "Validators\\CreateProductRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:56:46.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:33:59.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StartingForm.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\StartingForm.cs",
+              "RelativeDocumentMoniker": "Forms\\StartingForm.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\StartingForm.cs",
+              "RelativeToolTip": "Forms\\StartingForm.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwF0AAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T09:33:22.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\MainForm.cs",
+              "RelativeToolTip": "Forms\\MainForm.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAAANsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T21:03:29.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\MainForm.cs",
+              "RelativeDocumentMoniker": "Forms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Windows10Pro\\Documents\\University\\C#\\E-Commerce-Cart-API-UI\\Forms\\MainForm.cs [Design]",
+              "RelativeToolTip": "Forms\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T21:02:56.609Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
