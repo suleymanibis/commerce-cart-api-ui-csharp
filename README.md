@@ -1,94 +1,94 @@
 ﻿# Commerce Cart API UI
 
-`Commerce Cart API UI`, e-ticaret sepet işlemlerini bir REST API üzerinden yöneten Windows masaüstü istemcisidir. Uygulama; kullanıcı kaydı ve girişi, ürün kataloğu, alışveriş sepeti, sipariş oluşturma ve sipariş geçmişi akışlarını Windows Forms arayüzüyle sunar.
+`Commerce Cart API UI` is a Windows desktop client for managing e-commerce shopping cart operations through a REST API. The application provides user registration and login, product catalog management, shopping cart operations, order creation, and order history through a Windows Forms interface.
 
-> Bu depo yalnızca masaüstü istemcisini içerir. Uygulamanın çalışması için istemcinin bağlanacağı API'nin ayrıca çalışıyor olması gerekir.
+> This repository contains the desktop client only. The API used by the client must be running separately.
 
-## Teknoloji yığını
+## Technology stack
 
-- C# ve .NET 10
+- C# and .NET 10
 - Windows Forms (`net10.0-windows`)
-- `Microsoft.Extensions.Hosting` ve dependency injection
-- `HttpClient` / `Microsoft.Extensions.Http`
+- `Microsoft.Extensions.Hosting` and dependency injection
+- `HttpClient` via `Microsoft.Extensions.Http`
 - `System.Text.Json`
 - FluentValidation
-- JWT token doğrulama (`System.IdentityModel.Tokens.Jwt` ve `Microsoft.IdentityModel.Tokens`)
-- Visual Studio çözümü: `E-Commerce-Cart-API-UI.slnx`
+- JWT token validation with `System.IdentityModel.Tokens.Jwt` and `Microsoft.IdentityModel.Tokens`
+- Visual Studio solution: `E-Commerce-Cart-API-UI.slnx`
 
-## Gereksinimler
+## Requirements
 
 - Windows
 - .NET 10 SDK
-- İstemcinin çalışacağı makinede erişilebilir bir Commerce Cart API
-- API'nin `http://localhost:8080` adresinde dinlemesi
+- A reachable Commerce Cart API
+- The API listening at `http://localhost:8080`
 
-## Kurulum
+## Setup
 
-1. Depoyu klonlayın ve proje klasörüne geçin:
+1. Clone the repository and change to its directory:
 
    ```powershell
    git clone https://github.com/suleymanibis/commerce-cart-api-ui-csharp.git
    cd commerce-cart-api-ui-csharp
    ```
 
-2. Bağımlılıkları geri yükleyin:
+2. Restore the NuGet dependencies:
 
    ```powershell
    dotnet restore
    ```
 
-3. API'nin çalıştığını ve `http://localhost:8080` adresinden erişilebilir olduğunu doğrulayın.
+3. Confirm that the API is running and reachable at `http://localhost:8080`.
 
-## API bağlantı ayarı
+## API connection configuration
 
-API'nin taban adresi `Client/AppClient.cs` içindeki `AppClient` kurucusunda tanımlıdır:
+The API base address is defined in the `AppClient` constructor in `Client/AppClient.cs`:
 
 ```csharp
-httpClient.BaseAddress = new Uri("http://localhost:8080");
+_httpClient.BaseAddress = new Uri("http://localhost:8080");
 ```
 
-Farklı bir API adresi kullanacaksanız bu satırı hedef ortama göre değiştirip projeyi yeniden derleyin. Uygulama, oturum açıldıktan sonra JWT token'ı `sessions.json` dosyasına kaydeder ve sonraki isteklerde `Authorization: Bearer <token>` başlığını otomatik ekler. Kullanıcı bilgileri `user_config.json` dosyasında tutulur; çıkış yapıldığında iki dosya da temizlenir.
+To use a different API address, update this value for the target environment and rebuild the project. After login, the application stores the JWT response in `sessions.json` and automatically sends the token as an `Authorization: Bearer <token>` header on subsequent requests. User details are stored in `user_config.json`; logging out removes both files.
 
-## Çalıştırma
+## Running the application
 
-Komut satırından:
+From the command line:
 
 ```powershell
 dotnet run --project .\E-Commerce-Cart-API-UI.csproj
 ```
 
-Visual Studio ile `E-Commerce-Cart-API-UI.slnx` dosyasını açın, `E-Commerce-Cart-API-UI` projesini başlangıç projesi olarak seçin ve `F5` veya `Ctrl+F5` ile çalıştırın.
+With Visual Studio, open `E-Commerce-Cart-API-UI.slnx`, select `E-Commerce-Cart-API-UI` as the startup project, and run with `F5` or `Ctrl+F5`.
 
-Uygulama geçerli bir oturum bulursa doğrudan ana menüyü açar; geçerli oturum yoksa giriş/kayıt ekranını gösterir.
+If a valid saved session is found, the application opens the main menu. Otherwise, it opens the login and registration screen.
 
-## Kullanım akışı
+## User flow
 
-1. Başlangıç ekranından kayıt olun veya giriş yapın.
-2. Ana ekranda ürünleri görüntüleyin; `ADMIN` rolündeki kullanıcılar ürün ekleyip silebilir.
-3. Ürün seçip miktarı belirleyerek sepete ekleyin.
-4. Sepet ekranından ürün silebilir, miktarı artırabilir veya sepeti temizleyebilirsiniz.
-5. Teslimat adresini girerek sipariş oluşturun.
-6. Ana ekrandan sipariş geçmişini görüntüleyin.
-7. Çıkış yaptığınızda yerel JWT oturumu ve kullanıcı yapılandırması silinir.
+1. Register a new account or sign in from the starting screen.
+2. Browse the product catalog. Users with the `ADMIN` role can add and delete products.
+3. Select a product and quantity, then add it to the cart.
+4. From the cart screen, remove products, increase quantities, or clear the cart.
+5. Enter a delivery address and create an order.
+6. Open the order history to review the user's orders.
+7. Log out to remove the local JWT session and user configuration.
 
-İstemcinin kullandığı API uç noktaları:
+The client uses the following API endpoints:
 
-| İşlem | HTTP | Uç nokta |
+| Operation | HTTP | Endpoint |
 | --- | --- | --- |
-| Kayıt | `POST` | `/api/auth/register` |
-| Giriş | `POST` | `/api/auth/login` |
-| Kullanıcı bilgisi | `GET` | `/api/auth/me` |
-| Ürünleri listeleme | `GET` | `/api/products` |
-| Ürün oluşturma | `POST` | `/api/products` |
-| Ürün silme | `DELETE` | `/api/products/{productId}` |
-| Mevcut sepet | `GET` | `/api/cart` |
-| Sepete ürün ekleme | `POST` | `/api/cart/items` |
-| Sepetten ürün çıkarma | `DELETE` | `/api/cart/items/{productId}` |
-| Sepeti temizleme | `DELETE` | `/api/cart` |
-| Sipariş oluşturma | `POST` | `/api/orders` |
-| Siparişleri listeleme | `GET` | `/api/orders` |
+| Register | `POST` | `/api/auth/register` |
+| Login | `POST` | `/api/auth/login` |
+| Current user | `GET` | `/api/auth/me` |
+| List products | `GET` | `/api/products` |
+| Create product | `POST` | `/api/products` |
+| Delete product | `DELETE` | `/api/products/{productId}` |
+| Get current cart | `GET` | `/api/cart` |
+| Add cart item | `POST` | `/api/cart/items` |
+| Remove cart item | `DELETE` | `/api/cart/items/{productId}` |
+| Clear cart | `DELETE` | `/api/cart` |
+| Create order | `POST` | `/api/orders` |
+| List orders | `GET` | `/api/orders` |
 
-## Derleme ve doğrulama
+## Build and validation
 
 ```powershell
 dotnet restore
@@ -96,18 +96,18 @@ dotnet build .\E-Commerce-Cart-API-UI.csproj
 dotnet run --project .\E-Commerce-Cart-API-UI.csproj
 ```
 
-Depoda ayrı bir test projesi veya test dosyası bulunmadığından otomatik birim testleri tanımlı değildir. Değişiklikleri doğrulamak için derleme komutunu çalıştırın ve API ile birlikte temel kullanıcı, ürün, sepet ve sipariş akışlarını manuel olarak kontrol edin.
+The repository does not contain a separate test project or test files, so no automated unit-test suite is defined. Validate changes by building the project and manually exercising the user, product, cart, and order flows with the API running.
 
-## Proje yapısı
+## Project structure
 
 ```text
-Client/      HTTP istemcisi ve ortak API istekleri
-Dto/         İstek ve yanıt modelleri
-Enums/       Sayfa ve kullanıcı rolü sabitleri
-Forms/       Windows Forms ekranları
-Managers/    Oturum ve kullanıcı dosyası yönetimi
-Services/    Kimlik doğrulama, ürün, sepet ve sipariş servisleri
-Utils/       Dosya ve JWT yardımcıları
-Validators/  İstek doğrulayıcıları
-Program.cs   Uygulama başlangıcı ve dependency injection kaydı
+Client/      HTTP client and shared API request handling
+Dto/         Request and response models
+Enums/       Page and user-role constants
+Forms/       Windows Forms screens
+Managers/    Session and user configuration file management
+Services/    Authentication, product, cart, and order services
+Utils/       File and JWT helpers
+Validators/  Request validators
+Program.cs   Application startup and dependency-injection registration
 ```
